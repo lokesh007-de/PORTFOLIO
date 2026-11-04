@@ -1,0 +1,250 @@
+---
+name: Warm Editorial Atelier
+colors:
+  surface: '#fff8f5'
+  surface-dim: '#e4d8d0'
+  surface-bright: '#fff8f5'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#fef1e9'
+  surface-container: '#f8ece3'
+  surface-container-high: '#f2e6de'
+  surface-container-highest: '#ece0d8'
+  on-surface: '#201b16'
+  on-surface-variant: '#55423d'
+  inverse-surface: '#362f2a'
+  inverse-on-surface: '#fbeee6'
+  outline: '#89726c'
+  outline-variant: '#dcc1b9'
+  surface-tint: '#9b4428'
+  primary: '#964025'
+  on-primary: '#ffffff'
+  primary-container: '#b5573a'
+  on-primary-container: '#fff8f6'
+  inverse-primary: '#ffb59f'
+  secondary: '#546345'
+  on-secondary: '#ffffff'
+  secondary-container: '#d5e5bf'
+  on-secondary-container: '#596749'
+  tertiary: '#63594a'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#7c7162'
+  on-tertiary-container: '#fff8f3'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdbd1'
+  primary-fixed-dim: '#ffb59f'
+  on-primary-fixed: '#3a0a00'
+  on-primary-fixed-variant: '#7c2d13'
+  secondary-fixed: '#d8e8c2'
+  secondary-fixed-dim: '#bccca7'
+  on-secondary-fixed: '#131f07'
+  on-secondary-fixed-variant: '#3d4b2f'
+  tertiary-fixed: '#efe0ce'
+  tertiary-fixed-dim: '#d2c4b3'
+  on-tertiary-fixed: '#221a0f'
+  on-tertiary-fixed-variant: '#4f4538'
+  background: '#fff8f5'
+  on-background: '#201b16'
+  surface-variant: '#ece0d8'
+typography:
+  display-hero:
+    fontFamily: Playfair Display
+    fontSize: 4.5rem
+    fontWeight: '400'
+    lineHeight: 5rem
+    letterSpacing: -0.02em
+  display-hero-mobile:
+    fontFamily: Playfair Display
+    fontSize: 2.75rem
+    fontWeight: '400'
+    lineHeight: 3.25rem
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 3rem
+    fontWeight: '400'
+    lineHeight: 3.5rem
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 2rem
+    fontWeight: '400'
+    lineHeight: 2.5rem
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 2rem
+    fontWeight: '500'
+    lineHeight: 2.5rem
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 1.5rem
+    fontWeight: '600'
+    lineHeight: 2rem
+  body-lg:
+    fontFamily: DM Sans
+    fontSize: 1.125rem
+    fontWeight: '400'
+    lineHeight: 1.875rem
+  body-md:
+    fontFamily: DM Sans
+    fontSize: 1rem
+    fontWeight: '400'
+    lineHeight: 1.65rem
+  body-sm:
+    fontFamily: DM Sans
+    fontSize: 0.875rem
+    fontWeight: '400'
+    lineHeight: 1.45rem
+  label-md:
+    fontFamily: DM Sans
+    fontSize: 0.875rem
+    fontWeight: '500'
+    lineHeight: 1.25rem
+    letterSpacing: 0.02em
+  label-code:
+    fontFamily: JetBrains Mono
+    fontSize: 0.8125rem
+    fontWeight: '400'
+    lineHeight: 1.25rem
+    letterSpacing: 0.01em
+  label-deck:
+    fontFamily: Playfair Display
+    fontSize: 1.125rem
+    fontWeight: '400'
+    lineHeight: 1.6rem
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-tablet: 2rem
+  gutter-desktop: 3rem
+  margin: 1.25rem
+  margin-tablet: 2.5rem
+  margin-desktop: 4.5rem
+  space-xs: 0.375rem
+  space-sm: 0.75rem
+  space-md: 1.25rem
+  space-lg: 2rem
+  space-xl: 3.5rem
+---
+
+## Brand & Style
+
+This design system draws inspiration from bespoke literary monographs, physical print ateliers, and architectural journals. Designed for a software craftsperson and developer, it deliberately departs from cold terminal interfaces and neo-brutalist tech tropes, positioning engineering as thoughtful craft, deliberate architecture, and tactile composition.
+
+### Target Audience & Emotional Intent
+- **Audience:** Design-forward founders, creative technologists, boutique agencies, and architectural engineering teams seeking senior talent with high aesthetic literacy.
+- **Emotional Resonance:** Intimate, grounded, scholarly, and refined. The interface should feel like turning the heavy, matte pages of an archival publication printed on cotton rag paper, balancing warm tactile presence with uncompromising digital clarity.
+
+### Visual Aesthetic & Philosophy
+- **Style Direction:** Warm Editorial & Tactile Materiality.
+- **Signature Motifs:** Generous asymmetrical margins, delicate single-pixel botanical hairline strokes, architectural arched image framing, warm sand card tiers, and textural restraint. Digital screens evoke the depth of physical print without skeuomorphic mimicry.
+
+## Colors
+
+The palette is rooted in natural pigments: raw terracotta, weathered field sage, warm calico paper, and wood-ash charcoal.
+
+### Surface Tones & Canvases
+- **Canvas Base:** `#F5EEE3` provides an unbleached linen ground. In layered regions or full-width page breaks, step into sunken paper `#EFE6D8`.
+- **Card Surfaces:** `#EADECF` acts as elevated sand, establishing subtle visual groupings without stark white contrast.
+- **Surface Accent Lines:** `#DDD0BE` for faint architectural dividers and botanical framing lines.
+
+### Typographic Contrast
+- **Primary Ink:** `#2B2520` (deep espresso charcoal), providing softer, richer legibility than synthetic black (`#000000`).
+- **Muted Ink:** `#635B54` for metadata, dates, commit hashes, and deck copy.
+- **Subtle Ink:** `#948A80` for captions, footnotes, and decorative section markers.
+
+### Accents & Semantic Roles
+- **Primary Accent (Terracotta / Burnt Clay - `#B5573A`):** Used for interactive focal points, selected states, featured project badges, and primary calls to action.
+- **Secondary Accent (Field Sage - `#6B7A5A`):** Used for production statuses, engineering tags, live deployment indicators, and botanical accents.
+- **Tertiary Accent (Warm Sand Clay - `#D8CAB8`):** Used for quiet state shifts, active pill fills, and soft surface framing.
+- **Code Tint Ground:** `#ECE3D4` paired with `#382F2A` for embedded code blocks to preserve warm parchment continuity.
+
+## Typography
+
+The typographic hierarchy establishes clear editorial balance: expressive, transitional serif headlines pair with a geometric, legible sans-serif for reading and technical data.
+
+- **Headlines (Playfair Display):** Imparts literature, editorial cadence, and weight. Larger headings should use an unforced optical weight (`400` or `500`) with tight line wrapping to mimic book titles. Italicized cuts are reserved for editorial sub-headers, quotes, and project case epigraphs.
+- **Body & Utility (DM Sans):** Clear, proportioned, and calm. Set with open line heights (`1.65`–`1.875`) to encourage extended reading of architecture case studies and long-form technical write-ups.
+- **Metadata & Technical Detail (JetBrains Mono):** Provides honest technical contrast for repository links, version tags, commit stamps, benchmarks, and line numbers.
+- **Editorial Deck (`label-deck`):** Dedicated to italicized chapter leads, pull quotes, and project abstracts situated directly below major headlines.
+
+## Layout & Spacing
+
+The layout is structured around an asymmetrical, wide-margin editorial grid that mirrors independent book design.
+
+### Structural Grid Architecture
+- **Desktop (1200px+):** 12-column asymmetric grid with `margin-desktop` (4.5rem) and `gutter-desktop` (3rem). Narrative articles sit within a 7-column offset spine, allowing 4 columns for sticky technical annotations, metadata, and botanical illustrations.
+- **Tablet (768px – 1199px):** 8-column layout with `margin-tablet` (2.5rem) and `gutter-tablet` (2rem). Side notes collapse into inline sections.
+- **Mobile (Up to 767px):** 4-column layout with `margin` (1.25rem) and `gutter` (1.5rem). Elements span full width with relaxed vertical breathing space.
+
+### Spacing Cadence & Rhythm
+- Spacing utilizes an intentional, non-linear progression to prevent visual crowding.
+- Section boundaries employ generous pauses (`space-xl` and higher multiples) paired with subtle 1px divider lines (`#DDD0BE`) rather than heavy block dividers.
+- Group related metadata using `space-xs` and `space-sm` to maintain clear grouping.
+
+## Elevation & Depth
+
+This design system avoids glossy drop shadows, harsh dark casts, and synthetic blurs, relying instead on soft clay-style matte depth, unglazed terracotta textures, and layered paper sheets.
+
+### Matte Surface Stacking
+- **Ground Floor:** Canvas `#F5EEE3` with a persistent SVG microporous paper grain overlay at 3% opacity (`mix-blend-mode: multiply`).
+- **Mid-Tier (Cards, Code Workbenches):** Shift upward via color values (`#EADECF`) accompanied by a subtle clay ambient drop:
+  `box-shadow: 0 4px 20px -2px rgba(43, 37, 32, 0.05), 0 1px 3px 0 rgba(43, 37, 32, 0.03);`
+- **Elevated Interactive (Modals, Hovered Projects, Floating Navbars):**
+  `box-shadow: 0 12px 32px -4px rgba(43, 37, 32, 0.08), 0 2px 6px -1px rgba(43, 37, 32, 0.04);`
+
+### Border & Hairline Framework
+- Cards and content regions use a delicate 1px boundary (`#DDD0BE` or `#D8CAB8`) to evoke the deckle edges of pressed rag paper.
+- Hover states transition border colors toward terracotta (`#B5573A`) or sage (`#6B7A5A`) without shifting element dimensions.
+
+## Shapes
+
+The geometric vocabulary balances architectural precision with soft, organic curves.
+
+### Architectural Arches & Curvature
+- **Base Geometry:** A baseline roundedness of `1` (0.25rem default, 0.5rem on cards) keeps utilitarian interfaces crisp, deliberate, and book-bound.
+- **Arched Feature Masks (`arch-top`):** Key portfolio screenshots, visual exhibits, and biographical portraits use an architectural round-top arch:
+  `border-radius: 6rem 6rem 0.5rem 0.5rem;`
+- **Botanical Pill Tags:** Filter tags and status chips use full pill geometry (`9999px`) to visually offset square-edged cards and code blocks.
+- **Hairline Geometry:** In-line dividers feature botanical terminal loops or single-pixel dot ornaments at axis intersections.
+
+## Components
+
+### Buttons
+- **Primary Action:** Solid burnt terracotta (`#B5573A`) background with linen text (`#F5EEE3`). Slightly rounded corners (`0.375rem`), with a faint inset line: `box-shadow: inset 0 1px 0 rgba(255,255,255,0.15)`. On hover, color deepens to `#A04B30`.
+- **Secondary / Ghost:** Transparent base enclosed by a 1px border (`#DDD0BE`), espresso text (`#2B2520`). On hover, background fills with sand (`#EADECF`) and borders transition to `#B5573A`.
+- **Editorial Text Action:** Deep espresso link accompanied by an italicized serif label, terminating with a terracotta arrow glyph (`→`) that transitions 4px right on hover.
+
+### Cards & Project Folios
+- **Container:** Sand tint (`#EADECF`) over linen background, outlined by a 1px `#DDD0BE` perimeter line.
+- **Cover Image / Exhibit:** Framed inside the arched mask (`border-radius: 6rem 6rem 0.375rem 0.375rem`), subtly recessed via a 1px inner border.
+- **Content Block:** Editorial Playfair headline, muted summary deck in DM Sans, and monospace technology stamps across the bottom edge.
+
+### Chips & Badges
+- **Status Tags (e.g., "Active Architecture", "Shipped"):** Sage ground tint (`rgba(107, 122, 90, 0.12)`), sage text (`#4F5C41`), encapsulated within a pill shape with a 1px hairline border (`rgba(107, 122, 90, 0.25)`).
+- **Tech Stack Chips:** Sand ground (`#E2D5C3`), espresso label text in `JetBrains Mono`, zero drop shadow, 0.25rem radius.
+
+### Input Fields & Search Bars
+- **Frame:** Sand background (`#EFE6D8`), 1px structural stroke in `#DDD0BE`. Text typed in `#2B2520`.
+- **Focus State:** Stroke shifts to `#B5573A` with a soft 2px ambient outer glow (`rgba(181, 87, 58, 0.15)`). Placeholders styled in `#948A80` with an italicized serif posture.
+
+### Checkboxes & Radios
+- **Unchecked:** 1px perimeter border in `#DDD0BE`, warm linen interior (`#F5EEE3`).
+- **Checked:** Solid terracotta fill (`#B5573A`) featuring a clean cream check mark. Radios adopt a center-nested terracotta dot.
+
+### Lists & Case Indexes
+- **Folio Index List:** Rows divided by 1px `#DDD0BE` lines. Each row contains an architectural chapter index (`01`, `02`) in `JetBrains Mono`, a Playfair project title, technical competencies in sage chips, and an interactive right-aligned release year.
+- **Hover Motion:** Hovering a row reveals an arched image preview thumb without shifting adjacent line items.
+
+### Code Display & Technical Workbenches
+- Embedded code components use an inset matte parchment finish (`#ECE3D4`), left-aligned line numbers in `#948A80`, and warm-toned syntax highlighting (terracotta keywords, sage strings, and charcoal comments).
